@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="flex items-center justify-between flex-wrap bg-sky-500 p-6">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
+            </svg>
+            <span class="font-semibold text-xl tracking-tight">Rey Tailwind</span>
+        </div>
+        <div class="block lg:hidden">
+            <button
+                class="flex items-center px-3 py-2 border rounded text-sky-200 border-sky-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto text-center">
+            <div class="text-lg lg:flex-grow">
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                    Docs
+                </a>
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                    About
+                </a>
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                    Service
+                </a>
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                    Portofolio
+                </a>
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                    Team
+                </a>
+                <button id="dropdownDefault" data-dropdown-toggle="dropdown"
+                    class="text-white bg-tranparant-700 hover:bg-tranparant-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    type="button">Dropdown button <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none"
+                        stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg></button>
+                <!-- Dropdown menu -->
+                <div id="dropdown"
+                    class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                    data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom"
+                    style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(0px, 10px);">
+                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">RAIHAN
+                                MUFTI MUBAROK</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">RAIHAN</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">3122522011</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">PRODI
+                                IT</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#responsive-header"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                    Contact
+                </a>
+            </div>
+            <div>
+                <a href="#"
+                    class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Get
+                    Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mx-auto px-4 py-4 bg-sky-500">
+        <div class="grid grid-rows-1 grid-cols-2">
+            <div class=" grid-rows-2 grid-cols-1">
+                <div class="text-6xl font-extrabold text-white px-4 py-4 ml-4 mt-24 leading-snug">Better Solutions For
+                    Your Business</div>
+                <div class="text-4xl font-bold px-4 py-4 ml-4 text-gray-700">We are team of talented designers making
+                    websites with Tailwind</div>
+
+                <div class="px-7 py-4">
+                    <a href="#"
+                        class="inline-block rounded-full text-2xl text-sm px-4 py-2 leading-none border rounded text-black border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
+                </div>
+
+            </div>
+            <div class="grid grid-rows-1 grid-cols-1 ">
+                <img src="/src/hero-img.png" class="h-3/4 animate-pulse" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="grid grid-rows-1 grid-cols-4 px-72 -mt-44 gap-7">
+        <div
+            class="py-14 hover:py-16 bg-sky-600 text-center drop-shadow-2xl rounded-lg hover:bg-sky-400 duration-700 row-span-2 col-span-1">
+            <div class="px-16 ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-44 h-44 stroke-slate-300">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                </svg>
+                <div class="font-bold text-3xl text-gray-700">
+                    Raihan
+                </div>
+            </div>
+        </div>
+        <div
+            class="py-14 hover:py-16 bg-sky-600 text-center drop-shadow-2xl rounded-lg hover:bg-sky-400 duration-700 row-span-2 col-span-1">
+            <div class="px-16">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-44 h-44 stroke-slate-300">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                </svg>
+                <div class="font-bold text-3xl text-gray-700">
+                    TI
+                </div>
+            </div>
+        </div>
+        <div
+            class="py-14 hover:py-16 bg-sky-600 text-center drop-shadow-2xl rounded-lg hover:bg-sky-400 duration-700 row-span-2 col-span-1">
+            <div class="px-16">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
+                    stroke="currentColor" class="w-44 h-44 stroke-slate-300">
+                    <path strokeLinecap="round" strokeLinejoin="round"
+                        d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
+                </svg>
+                <div class="font-bold text-3xl text-gray-700">
+                    Rubik
+                </div>
+            </div>
+        </div>
+        <div
+            class="py-14 hover:py-16 bg-sky-600 text-center drop-shadow-2xl rounded-lg hover:bg-sky-400 duration-700 row-span-2 col-span-1">
+            <div class="px-16">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-44 h-44 stroke-slate-300">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                </svg>
+
+                <div class="font-bold text-3xl text-gray-700">
+                    Merchandise
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 text-center">
+        <div class="text-6xl font-extrabold text-red-600 px-4 mt-24 leading-snug">About Us.</div>
+        <div class="">Kacepot Gulena Merah Salah Lopot Nyo'ona Sapora</div>
+    </div>
+
+    <div class="container-fluid mx-auto px-4 py-4">
+        <div class="grid grid-rows-1 grid-cols-2">
+            <div class=" grid-rows-2 grid-cols-1">
+                <div>Rubik adalah sebuah permainan teka-teki mekanik yang ditemukan pada tahun 1974 oleh pemahat dan
+                    profesor arsitektur Hongaria, Ernő Rubik.
+                </div>
+                <div>Kubus ini terbuat dari plastik dan terdiri atas 26 bagian kecil yang berputar pada poros yang
+                    terlihat dan dipasarkan di kawasan Eropa pada Mei 1980.</div>
+                <div> Rubik tercatat sebagai mainan yang paling
+                    banyak terjual di dunia, dengan sekitar 300 juta kubus Rubik, belum termasuk imitasinya.</div>
+                <img src="/src/rubik.jpg" class="h-3/4 animate-pulse" alt="">
+                <div class="px-7 py-4">
+                    <a href="#"
+                        class="inline-block rounded-full text-2xl text-sm px-4 py-2 leading-none border rounded text-black border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
+                </div>
+            </div>
+            <div class="grid grid-rows-1 grid-cols-1 ">
+                <div>Rubik adalah sebuah permainan teka-teki mekanik yang ditemukan pada tahun 1974 oleh pemahat dan
+                    profesor arsitektur Hongaria, Ernő Rubik.
+                </div>
+                <div>Kubus ini terbuat dari plastik dan terdiri atas 26 bagian kecil yang berputar pada poros yang
+                    terlihat dan dipasarkan di kawasan Eropa pada Mei 1980.</div>
+                <div> Rubik tercatat sebagai mainan yang paling
+                    banyak terjual di dunia, dengan sekitar 300 juta kubus Rubik, belum termasuk imitasinya.</div>
+                <img src="/src/rubik.jpg" class="h-3/4 animate-pulse" alt="">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
